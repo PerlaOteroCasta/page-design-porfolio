@@ -1,0 +1,145 @@
+body {
+    background-color: #FFF7F0;
+    color: #030303;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+  }
+  
+  #logo img {
+    width: 64px;
+    aspect-ratio: 1;
+    padding-left: 200px;
+  }
+  
+  #call-to-action {
+    background-color: #030303;
+    color: #FFF7F0;
+    text-decoration: none;
+    padding: 14px 45px;
+    border-radius: 1000px;
+  }
+  
+  .text-content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 56px;
+    margin-block-end: 22px;
+  }
+  
+  .text-content p {
+    color: #7A746E;
+    text-align: center;
+    
+  }
+
+  .container.image{
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 100;
+    display: flex;
+    justify-content: end
+    background-color #f9f9f9;
+    
+  }
+  .container-image{
+    justify-content:center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    
+  }
+  
+  .section{
+    position: relative;
+    width: 300px;
+    aspect-ratio: 1/1;
+    justify-content: right;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(59, 11, 232, 0.1);
+    border-radius: 8px;
+  }
+  
+  .section .image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .section.graphic {
+    background-color: #75cd;
+  }
+  
+  
+  .section.illustrations{
+    background-color: #eb7565;
+  }
+  
+  
+  .section.photography {
+    background-color: #61c4b7;
+  }
+  
+  
+  .section p {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align-last: auto;
+    
+}
+
+ .about  {
+  justify-content: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  max-width: 1200px;
+  margin: 90 auto;
+  gap: 80px;
+  text-align: center;
+ }
+
+ .profile{
+  padding-left: 130px;
+ }
+
+  h2  {
+align-items: center;
+text-align: justify;
+  }
+
+  
+  p  {
+   font-size: 1rem;
+   line-height: 1.6;
+   margin-bottom: 20px;
+   text-align: justify;
+   padding-right: 100px;
+   
+  }
+  #call-to-action2 {
+    background-color: #eb7565;
+    color: #FFF7F0;
+    text-decoration: none;
+    padding: 10px 45px;
+    border-radius: 1000px;
+    width: fit-content;
+    align-items: center;
+    float: left;
+     }
+  
