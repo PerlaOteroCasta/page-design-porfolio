@@ -9,13 +9,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 15.27%;
+    padding-right: 21%;
   }
   
   #logo img {
     width: 64px;
     aspect-ratio: 1;
-    padding-left: 300%;
+    padding-left: 580%;
   }
   
   #call-to-action {
@@ -112,6 +112,7 @@ body {
   margin: 90 auto;
   gap: 80px;
   text-align: center;
+  padding-left: 15%;
  }
 
  .profile{
@@ -196,3 +197,59 @@ text-align: justify;
   }
 }
   
+  .gallery{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: transparent;
+
+ }
+
+ .pictures img{
+ width: 100%;
+ aspect-ratio: 1/1;
+ max-width: 300px;
+ border-radius: 8 px;
+ box-shadow: none;
+ padding-left: 0%;
+ padding-right: 0%;
+
+ }
+
+ .flechas{
+ padding-left: 47%;
+ width: 6%;
+ aspect-ratio: 2/1;
+ align-items: center;
+
+ }
+  
+.call {
+  background-color: #030303;
+  background-size: contain;
+  color: #FFF7F0;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.625rem;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px 300px;
+  
+ }
+
+ #call-to-action3 {
+  background-color: #eb7565;
+  color: #FFF7F0;
+  text-decoration: none;
+  padding: 10px 45px;
+  border-radius: 1000px;
+  width: fit-content;
+  align-items: right;
+  float: right;
+  display: flex;
+   }
